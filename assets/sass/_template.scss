@@ -1,0 +1,46 @@
+/* Login */
+.woocommerce-form-login{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Checkout */
+
+.elementor-widget-shortcode{
+    form.woocommerce-checkout{
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 56% auto;
+        align-items: stretch;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        @media screen and (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+        #customer_details{
+            width: 100%;
+        }
+        #order_review{
+            float: none;
+            width: 100%;
+            padding: 0;
+            background: none;
+        }
+        #payment{
+            button#place_order{
+                margin: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Mini Cart */
+.elementor-menu-cart__container .elementor-menu-cart__main{
+    width: 500px;
+}
+
+/* Cart */
+.wc-block-cart__submit-button{
+    border: 1px solid #000;
+}
